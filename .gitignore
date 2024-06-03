@@ -1,0 +1,9 @@
+# Ignorar archivos compilados
+*.class
+*.o
+# Ignorar archivos generados por IDEs
+.idea/
+# Ignorar archivos de dependencias
+node_modules/
+# Ignorar archivos de configuración específicos del entorno
+config.env

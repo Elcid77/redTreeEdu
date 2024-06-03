@@ -5,6 +5,20 @@
   transform: scale(1.1);
 }
 
+.animacion-class, .contenedor-header2 {
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+  0% {
+    background-position: center bottom;
+    background-size: 100%;
+  }
+  100% {
+    background-position: center bottom;
+    background-size: 150%;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;

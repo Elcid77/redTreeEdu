@@ -24,9 +24,28 @@
     }
   }
 
+  @mixin myAnim {
+    @keyframes myAnim {
+      0% {
+        background-position: center bottom;
+        background-size: 100%;
+      }
+      100% {
+        background-position: center bottom;
+        background-size: 150%;
+      }
+    }
+  }
+  
+
   // Clase base para animación
 .image-zoom {
   @include zoom-hover;
+}
+
+.animacion-class {
+  @include myAnim;
+  animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
 // Extendiendo
