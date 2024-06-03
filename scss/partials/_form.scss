@@ -1,0 +1,35 @@
+
+//Estilo fomulario
+.color-h3 {
+  color: $secondary-color;
+}
+
+.contact-form {
+  background-color: $dark-background-color;
+  padding: 20px;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+
+  .form-label {
+    font-weight: bold;
+    color: $text-color;
+  }
+
+  .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-shadow: none;
+    transition: border-color $transition-ease;
+
+    &:focus {
+      @include input-focus;
+    }
+  }
+
+  .btn-primary {
+    background-color: $secondary-color;
+    border-color: $primary-color;
+    transition: background-color $transition-ease, border-color $transition-ease;
+    margin: 0;
+  }
+}

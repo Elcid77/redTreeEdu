@@ -1,0 +1,48 @@
+// Header
+.contenedor-header {
+    @include flex-center;
+    padding: 20px;
+  }
+  
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: $text-color;
+  }
+  
+  .item-logo {
+    width: 90px;
+    margin: 0;
+  }
+  
+  .item-texto-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 10px 0;
+  }
+  
+  // Header with Background Image
+  .contenedor-header2 {
+    @include flex-center;
+    padding: 20px;
+    background-image: url('../assets/img/redVerde.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 25vh;
+    gap: 20px;
+    color: $text-color;
+  }
+  
+  .item-texto-header2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .item-frase2 {
+    text-align: left;
+  }
+  

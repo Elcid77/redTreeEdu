@@ -1,0 +1,38 @@
+// Mixins
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin grid-template($columns) {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: $columns;
+  }
+  
+  @mixin input-focus {
+    border-color: $primary-color;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+  }
+  //Animación
+  @mixin zoom-hover($scale-factor: 1.1) {
+    transition: transform $transition-duration $transition-timing-function;
+  
+    &:hover {
+      transform: scale($scale-factor);
+    }
+  }
+
+  // Clase base para animación
+.image-zoom {
+  @include zoom-hover;
+}
+
+// Extendiendo
+.zoom {
+  @extend .image-zoom;
+}
+
+
+

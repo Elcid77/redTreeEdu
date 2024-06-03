@@ -1,0 +1,543 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* Estilo general para el cuerpo de la página */
+
+
+body {
+    font-family: 'Roboto', sans-serif; /* Establece la fuente principal de la página como 'Roboto', con una fuente de respaldo sans-serif */
+    background-color: #f8f9fa; /* Define un color de fondo gris claro para toda la página */
+}
+
+
+/* Estilo para el contenido del encabezado */
+
+
+.contenedor-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    
+    /* background-color:#606c38; */
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #FFFFFF;
+}
+
+.item-logo {
+    width: 90px;
+    margin: 0;
+}
+
+.item-texto-logo {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 0 0 10px 0;
+}
+
+
+/*header con imagen de fondo y frase*/
+.contenedor-header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    background-image: url('../assets/img/redVerde.jpeg');
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen */
+    height: 25vh; /* Ajusta la altura del contenedor  */    
+    align-items: center;
+    gap: 20px;
+    color: #FFFFFF;
+}
+
+.item-texto-header2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item-frase2{
+
+    text-align: left;
+}
+
+
+
+
+/*NOSOTROS*/
+
+
+/* FORMULARIOS*/
+
+
+.color-h3{
+    color: #ffc107;
+}
+.contact-form {
+    /* background-color: #f0f8ff;  */
+    background-color: #343a40; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.contenedor-principal {
+    padding-top: 50px; /* Ajusta según necesites */
+}
+
+.contenedor-grid-login {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fila {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.columna-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.oculto-lg {
+    display: none;
+}
+
+.texto-centrado {
+    text-align: center;
+}
+
+/* Estilos para formularios */
+.fondo-color1 {
+    background-color: #FFFFFF; /* Cambia según tus preferencias */
+}
+
+.redondeado {
+    border-radius: 10px; /* Cambia según tus preferencias */
+}
+
+.etiqueta {
+    margin-bottom: 0.5rem;
+}
+
+.entrada-formulario {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.boton-primario {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.boton-primario:hover {
+    background-color: #0056b3;
+}
+
+.imagen-fluida {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para etiquetas */
+.contact-form .form-label {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* Estilo para inputs y textarea */
+.contact-form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-shadow: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Cambiar borde de inputs y textarea al enfocarse */
+.contact-form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Estilo para el botón de enviar */
+.contact-form .btn-primary {
+    background-color: #ffc107;
+    border-color: #007bff;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    margin: 0;
+}
+
+
+
+
+/* ESTILO PARA LA SECCIÓN INTRODUCCIÓN */
+
+.intro-section {
+    background-color: #343a40; /* Establece un fondo gris oscuro para la sección de introducción */
+    color: #fff; /* Establece el color del texto en blanco */
+}
+
+/* Estilo para los encabezados dentro de la sección de introducción */
+.intro-section h2 {
+    font-weight: 700; /* Define el tamaño de la fuente como 700 (bold) para los encabezados */
+    color: #ffc107; /* Establece un color de texto amarillo para los encabezados */
+}
+
+/* Estilo para el texto de introducción */
+.intro-section .intro-text {
+    max-width: 700px; /* Define un ancho máximo de 700px para el contenedor del texto */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Agrega un relleno de 20px alrededor del contenido */
+    border-radius: 8px; /* Aplica un radio de borde de 8px para esquinas redondeadas */
+    background-color: #495057; /* Establece un fondo gris oscuro para el contenedor del texto */
+}
+
+/* Estilo para las tablas */
+.table {
+    margin-top: 20px; /* Agrega un margen superior de 20px a las tablas */
+}
+
+/*FOOTERr*/
+
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.footer {
+    background-color: #24262B;
+    padding: 80px 0;
+
+}
+
+.footer-row {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-links {
+
+    width: 25%;
+    padding: 0 15px;
+
+}
+
+.footer-links h4 {
+
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #0fa140;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-links ul li a {
+
+    font-size: 18px;
+    text-decoration: none;
+    color: #BBBBBB;
+    display: block;
+    margin-bottom: 15px;
+
+}
+
+.footer-links ul li a:hover {
+    color: #FFFFFF;
+    padding-left: 6px;
+
+
+}
+
+.social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all .5s ease;
+}
+
+.social-link a:hover {
+
+    background-color: #0fa140;
+}
+
+
+/*GRID AREA CURSOS ARCHIVO CURSOS y NOSOTROS*/
+.contenedor-cursos {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+∂
+
+.text-center {
+    text-align: center;
+}
+
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-areas:
+        "curso1 curso2 curso3"
+        "sobreCursos sobreCursos sobreCursos";
+}
+
+
+
+.curso1 {
+    grid-area: curso1;
+}
+
+.curso2 {
+    grid-area: curso2;
+}
+.curso3 {
+    grid-area: curso3;
+}
+
+.sobreCursos {
+    grid-area: sobreCursos;
+}
+
+
+.fondo1Color2 section:nth-child(2) {
+    grid-area: adolescentes;
+}
+
+.fondo1Color2 section:nth-child(3) {
+    grid-area: adultos;
+}
+
+
+.curso {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.curso img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.curso-body {
+    padding: 20px;
+}
+
+.curso-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.curso-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tarjeta-body {
+    padding: 20px;
+}
+
+.tarjeta-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.tarjeta-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*GRID AREA CURSOS*/
+
+.fondo1Color2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titulo"
+        "ninos"
+        "adolescentes"
+        "adultos";
+    gap: 20px;
+    padding: 20px;
+}
+
+.fondo1Color2 > section {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.fondo1Color2 h2 {
+    grid-area: titulo;
+}
+
+.fondo1Color2 section:nth-child(1) {
+    grid-area: ninos;
+}
+
+.fondo1Color2 section:nth-child(2) {
+    grid-area: adolescentes;
+}
+
+.fondo1Color2 section:nth-child(3) {
+    grid-area: adultos;
+}
+
+.cursoH3 {
+    margin-top: 0;
+}
+
+.imagenCursos2 {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.video{
+
+    width: 100%; /* Ancho completo del contenedor */
+    max-width: 600px; /* Ancho máximo del video */
+    height: auto; /* Altura automática para mantener la proporción */
+    border: 0;
+}
+
+    
+
+    /* Dispositivos pequeños (móviles) */
+@media (max-width: 600px) {
+    
+    /*FOOTER*/
+    .footer-row {
+        text-align: center;
+    }
+
+    .footer-links {
+
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    /*Para cursos*/
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "curso1"
+            "curso2"
+            "curso3"
+            "sobreCursos";
+    }
+
+    .curso img, .tarjeta img {
+        height: auto;
+    }
+}
+
+/* Dispositivos medianos (tabletas) */
+@media (min-width: 601px) and (max-width: 992px) {
+    
+
+     /*FOOTER*/
+     .footer-row {
+        text-align: center;
+    }
+
+    .footer-links {
+
+        width: 100%;
+        margin-bottom: 30px;
+        width: 50%;
+    }
+        /*Para cursos*/
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-areas:
+            "curso1 curso2"
+            "curso3 sobreCursos";
+    }
+
+    .curso img, .tarjeta img {
+        height: auto;
+    }
+}
+
+/* Dispositivos grandes (escritorios) */
+@media (min-width: 993px) {
+
+    
+        /*Para cursos*/
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-areas:
+            "curso1 curso2 curso3"
+            "sobreCursos sobreCursos sobreCursos";
+    }
+
+    .curso img, .tarjeta img {
+        height: 200px;
+    }
+}
+
