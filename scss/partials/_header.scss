@@ -34,6 +34,8 @@
     height: 25vh;
     gap: 20px;
     color: $text-color;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    outline: 1px solid black;
     @extend .animacion-class;
   }
   

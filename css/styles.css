@@ -42,7 +42,7 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .item-logo {
@@ -68,7 +68,9 @@ body {
   background-position: center center;
   height: 25vh;
   gap: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  outline: 1px solid black;
 }
 
 .item-texto-header2 {
@@ -93,7 +95,7 @@ body {
 }
 .contact-form .form-label {
   font-weight: bold;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .contact-form .form-control {
   border: 1px solid #ced4da;
@@ -170,7 +172,7 @@ body {
   background-color: #007bff;
   border: none;
   border-radius: 0.25rem;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 .boton-primario:hover {
@@ -184,7 +186,7 @@ body {
 
 .intro-section {
   background-color: #343a40;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .intro-section h2 {
   font-weight: 700;
@@ -217,7 +219,7 @@ body {
 }
 .footer .footer-links h4 {
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 25px;
   font-weight: 500;
   border-bottom: 2px solid #0fa140;
@@ -232,7 +234,7 @@ body {
   margin-bottom: 15px;
 }
 .footer .footer-links ul li a:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   padding-left: 6px;
 }
 .footer .social-link a {
@@ -244,7 +246,7 @@ body {
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #FFFFFF;
+  color: #ffffff;
   transition: all 0.3s ease-in-out;
 }
 .footer .social-link a:hover {
