@@ -1,0 +1,36 @@
+.container-t {
+    padding: $container-padding-t 1rem;
+}
+
+h3 {
+    margin-top: $container-padding-t;
+    color: $text-color-t;
+}
+
+.resource-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: $container-padding-t;
+
+    th, td {
+        padding: $padding-t;
+        border: 1px solid $border-color-t;
+    }
+
+    th {
+        background-color: $secondary-color-t;
+        text-align: left;
+    }
+
+    td {
+        a {
+            color: $primary-color-t;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+  
+}
