@@ -1,14 +1,40 @@
 // Media Queries
 @media (max-width: 600px) {
-    .footer-row {
-      text-align: center;
+  
+  //FOOTER
+  
+  .footer {
+    &-row,
+    &-links {
+      flex: 1 1 50%;
+      max-width: 100%;
+      margin: 0 0 30px 0;
+    }
+  }
+  
+    .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "curso1"
+        "curso2"
+        "curso3"
+        "sobreCursos";
     }
   
-    .footer-links {
-      width: 100%;
-      margin-bottom: 30px;
+    .curso img, .tarjeta img {
+      height: auto;
     }
   
+  //header
+
+  .contenedor-header2 {
+  
+    height: auto;
+    gap: 20px;
+    background-size: cover;
+  }
+  
+    //cursos
     .grid-container {
       grid-template-columns: 1fr;
       grid-template-areas:
@@ -23,7 +49,7 @@
     }
   }
   
-  @media (min-width: 580px) and (max-width: 992px) {
+  @media (min-width: 601px) and (max-width: 992px) {
     
     .contenedor-header2 {
       background-size: contain; // Ajusta el tamaño de la imagen para que se redimensione adecuadamente
