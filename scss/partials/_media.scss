@@ -1,4 +1,60 @@
 // Media Queries
+
+@media (min-width: 300px) and (max-width: 599px) {
+  
+  //FOOTER
+  
+  .footer {
+    &-row,
+    &-links {
+      flex: 1 1 50%;
+      max-width: 100%;
+      margin: 0 0 30px 0;
+    }
+  }
+  
+    .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "curso1"
+        "curso2"
+        "curso3"
+        "sobreCursos";
+    }
+  
+    .curso img, .tarjeta img {
+      height: auto;
+    }
+  
+  //header
+
+  .contenedor-header2 {
+  
+    background-size: auto 150%; /* Ajusta el tamaño de la imagen a 100% del alto */
+    background-position: top; /* Opcional: Puedes ajustar la posición de la imagen */
+  }
+  
+    //cursos
+    .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "curso1"
+        "curso2"
+        "curso3"
+        "sobreCursos";
+    }
+  
+    .curso img, .tarjeta img {
+      height: auto;
+    }
+  }
+
+
+
+
+
+
+
 @media (max-width: 600px) {
   
   //FOOTER

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .image-zoom, .zoom {
   transition: transform 0.3s ease-in-out;
 }
@@ -46,7 +47,7 @@ body {
 }
 
 .item-logo {
-  width: 90px;
+  width: 50px;
   margin: 0;
 }
 
@@ -362,6 +363,31 @@ body {
   border: 1;
 }
 
+@media (min-width: 300px) and (max-width: 599px) {
+  .footer-row, .footer-links {
+    flex: 1 1 50%;
+    max-width: 100%;
+    margin: 0 0 30px 0;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "curso1" "curso2" "curso3" "sobreCursos";
+  }
+  .curso img, .tarjeta img {
+    height: auto;
+  }
+  .contenedor-header2 {
+    background-size: auto 150%; /* Ajusta el tamaño de la imagen a 100% del alto */
+    background-position: top; /* Opcional: Puedes ajustar la posición de la imagen */
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "curso1" "curso2" "curso3" "sobreCursos";
+  }
+  .curso img, .tarjeta img {
+    height: auto;
+  }
+}
 @media (max-width: 600px) {
   .footer-row, .footer-links {
     flex: 1 1 50%;
